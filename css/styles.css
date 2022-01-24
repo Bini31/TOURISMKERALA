@@ -83,6 +83,6 @@ body {
 {
   align-self:center;
 }
-.message{
+#message{
   background-color:#FF0000;
 } 
