@@ -77,9 +77,12 @@ body {
   background-color: #008000;
 }
 .btnsignup{
-  background-color:#4BB74C;
+  background-color:#ecc930;
 }
 .district
 {
   align-self:center;
+}
+#message{
+  background-color:wheat;
 }
