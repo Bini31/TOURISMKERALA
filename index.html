@@ -53,7 +53,7 @@
 	<div class="form-group col-sm-4">
 	<label class="sr-only" for="exampleInputPassword">Password</label>
 	<input type="passsword" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="password" required>
-	</div>
+	</div> 
 
 	<div class="form-check">
 		<div class="col-sm-auto"></div>
@@ -250,7 +250,7 @@
 				</button> 
 				</div>
 				<div class="modal-body">
-				<form  id="signup"   action="./districts.html" onsubmit="return !!(phonenumbervalidation() & validate()& repeatpasswordvalidate());" >
+				<form  id="signup"   action="./districts.html" onsubmit="return !!(phonenumbervalidation() & validate()& repeatpasswordvalidate() & trimvalid());" >
 					<p>Please fill in this form to create an account.</p>
 					<label for="First Name" class=" col-sm-5 form-check-label "><b>First Name</b></label>
 					<input type="text" class="texts" placeholder="First Name" id="fname" name="FirstName" required>
